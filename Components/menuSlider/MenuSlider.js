@@ -13,9 +13,9 @@ const MenuSlider = () => {
       <li>
         <Link href="/resume">Resume</Link>
       </li>
-      <li>
+      {/* <li>
         <Link href="/machine_coding">React Machine Coding</Link>
-      </li>
+      </li> */}
       <li>
         <Link href="/projects">Projects</Link>
       </li>
