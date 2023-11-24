@@ -12,11 +12,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} max-w-7xl`}>
-        <div className="mt-16 flex justify-center align-middle">
+      <body className={`${inter.className}`}>
+        <div className="mt-16 flex justify-center">
           <MenuSlider />
         </div>
-        {children}
+        <div className="mx-auto w-9/12 mt-4">{children}</div>
       </body>
     </html>
   );
