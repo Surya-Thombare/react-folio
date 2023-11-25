@@ -1,7 +1,15 @@
+"use client";
+
 import React from "react";
+import { PDFViewer } from "@react-pdf/renderer";
+import MyDocument from "@/Components/Resume/Resume";
 
 const Page = () => {
-  return <div>Resume</div>;
+  return (
+    <PDFViewer>
+      <MyDocument />
+    </PDFViewer>
+  );
 };
 
 export default Page;
