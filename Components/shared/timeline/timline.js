@@ -19,7 +19,7 @@ const Timline = () => {
           </svg>
         </div>
         <div className="timeline-start md:text-end mb-10">
-          <time className="font-mono italic">1984</time>
+          <time className="font-mono italic">November/2021-current</time>
           <div className="text-lg font-black">First Macintosh computer</div>
           The Apple Macintosh—later rebranded as the Macintosh 128K—is the
           original Apple Macintosh personal computer. It played a pivotal role
@@ -47,7 +47,7 @@ const Timline = () => {
           </svg>
         </div>
         <div className="timeline-end mb-10">
-          <time className="font-mono italic">1998</time>
+          <time className="font-mono italic">jan/2021-july/2021</time>
           <div className="text-lg font-black">iMac</div>
           iMac is a family of all-in-one Mac desktop computers designed and
           built by Apple Inc. It has been the primary part of Apple's consumer

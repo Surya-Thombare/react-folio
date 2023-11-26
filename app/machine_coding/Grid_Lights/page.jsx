@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import Button from "../../../Components/button/button.js";
+import Button from "../../../Components/shared/button/button.js";
 import "./gridLights.modules.css";
 
 const GridLights = () => {

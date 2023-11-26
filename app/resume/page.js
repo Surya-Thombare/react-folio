@@ -2,13 +2,15 @@
 
 import React from "react";
 import { PDFViewer } from "@react-pdf/renderer";
-import MyDocument from "@/Components/Resume/Resume";
+import MyResume from "@/Components/shared/Resume/Resume";
 
 const Page = () => {
   return (
-    <PDFViewer>
-      <MyDocument />
-    </PDFViewer>
+    <div className="flex justify-center">
+      <PDFViewer width={750} height={800}>
+        <MyResume />
+      </PDFViewer>
+    </div>
   );
 };
 

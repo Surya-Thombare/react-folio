@@ -1,6 +1,6 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import MenuSlider from "@/Components/menuSlider/MenuSlider";
+import MenuSlider from "@/Components/shared/menuSlider/MenuSlider";
 
 const inter = Inter({ subsets: ["latin"] });
 

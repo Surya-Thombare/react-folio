@@ -1,5 +1,5 @@
 import React from "react";
-import Timeline from "../../Components/timeline/timline";
+import Timeline from "../../Components/shared/timeline/timline";
 
 const Page = () => {
   return (
